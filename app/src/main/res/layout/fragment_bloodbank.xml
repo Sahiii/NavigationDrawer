@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dedede"
+    tools:context="com.example.manishacomputer.navigation.Nav_view_menu.BloodbankFragment">
+
+   <GridView
+       android:scrollbarThumbVertical="@android:color/transparent"
+       android:gravity="center"
+       android:numColumns="2"
+       android:columnWidth="100dp"
+       android:verticalSpacing="5dp"
+       android:horizontalSpacing="5dp"
+       android:id="@+id/listview"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+   </GridView>
+
+</RelativeLayout>

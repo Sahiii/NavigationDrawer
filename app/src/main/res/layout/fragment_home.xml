@@ -1,0 +1,126 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarThumbVertical="@android:color/transparent"
+    tools:context="com.example.manishacomputer.navigation.Nav_view_menu.HomeFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+
+       <FrameLayout
+           android:background="#00b"
+           android:layout_width="match_parent"
+           android:layout_height="220dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:background="#fff"/>
+
+           <com.mikhaellopez.circularimageview.CircularImageView
+               android:layout_marginTop="10dp"
+               android:id="@+id/user_image"
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginBottom="5dp"
+               android:src="@drawable/sahii">
+           </com.mikhaellopez.circularimageview.CircularImageView>
+       </FrameLayout>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="username"
+           android:padding="5dp"
+           android:textAlignment="center"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:textColor="@android:color/black"
+           android:id="@+id/txt_username"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Address"
+           android:id="@+id/txt_address"
+           android:textColor="@android:color/black"
+           android:textAlignment="center"
+           android:padding="5dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Blood group"
+           android:id="@+id/txt_Blood_group"
+           android:textColor="@android:color/black"
+           android:padding="5dp"
+           android:textStyle="bold"
+           android:textSize="20sp"
+           android:textAlignment="center"
+           />
+
+       <LinearLayout
+           android:padding="5dp"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_weight="1"
+               android:textAlignment="textEnd"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@android:color/black"
+               android:text="bloodsaved"/>
+           <TextView
+               android:layout_weight="2"
+               android:textColor="@android:color/holo_red_light"
+               android:textSize="30sp"
+               android:textAlignment="textEnd"
+               android:id="@+id/txt_unit"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="02"/>
+           <TextView
+               android:layout_weight="0.5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@android:color/black"
+               android:text="units"
+               android:textAlignment="center"/>
+
+       </LinearLayout>
+       <Button
+           android:background="@color/colorAccent"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:layout_margin="10dp"
+           android:text="Make save blood"
+           android:textAlignment="center"
+           android:textColor="@android:color/white"
+           android:id="@+id/txt_make_save_blood"
+           android:layout_marginTop="10dp"
+           />
+
+       <Button
+           android:layout_margin="10dp"
+           android:background="@color/colorAccent"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:text="transfer"
+           android:textAlignment="center"
+           android:textColor="@android:color/white"
+           android:id="@+id/txt_make_transfer"
+android:layout_marginTop="10dp"
+           />
+
+
+   </LinearLayout>
+
+</ScrollView>

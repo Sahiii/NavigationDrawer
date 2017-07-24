@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manishacomputer.navigation.Nav_view_menu.SearchList">
+
+   <RelativeLayout
+       android:padding="10dp"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <RelativeLayout
+           android:layout_alignParentStart="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:layout_width="150dp"
+               android:layout_height="100dp"
+               android:scaleType="centerCrop"
+               android:id="@+id/image"
+               android:src="@drawable/world"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="roshan"
+               android:layout_below="@+id/image"
+               android:textColor="@android:color/black"
+               android:textSize="20sp"
+               android:layout_centerHorizontal="true"/>
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_alignParentEnd="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:layout_width="150dp"
+               android:layout_height="100dp"
+               android:scaleType="centerCrop"
+               android:id="@+id/image1"
+               android:src="@drawable/world"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="roshan"
+               android:layout_below="@+id/image1"
+               android:textColor="@android:color/black"
+               android:textSize="20sp"
+               android:layout_centerHorizontal="true"/>
+       </RelativeLayout>
+
+   </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarThumbVertical="@android:color/transparent"
+    tools:context="com.example.manishacomputer.navigation.Nav_view_menu.ProfileFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:background="#00b"
+            android:layout_width="match_parent"
+            android:layout_height="270dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="#fff"/>
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_marginTop="10dp"
+                android:id="@+id/user_image"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/sahii">
+            </com.mikhaellopez.circularimageview.CircularImageView>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txt_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roshan  Posakhya"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Imadole,Lalitpur"
+            android:id="@+id/txt_address"
+            android:textAlignment="center"
+            android:textColor="#ff00"
+            android:padding="5dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/txt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9817236430"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColorLink="@color/colorPrimary"
+            android:textSize="20sp"
+            android:autoLink="phone"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#ff00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ff00ff"/>
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="roshanposakhya@gmail.com"
+            android:textAlignment="viewStart"
+            android:textColor="#ff00"
+            android:textSize="25dp"
+            android:id="@+id/txt_email"
+            android:padding="10dp"
+            android:autoLink="email"
+            android:textColorLink="#00b"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ff00ff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#ff00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ff00ff"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I am a donor."
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#00b"
+            android:id="@+id/txt_Flag"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+</ScrollView>
